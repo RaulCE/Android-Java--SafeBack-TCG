@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/mapa_bar"
+            android:title="Mapa" />
+        <item
+            android:id="@+id/nav_rutas"
+            android:icon="@drawable/rutas_bar"
+            android:title="Rutas" />
+        <item
+            android:id="@+id/nav_trayectos"
+            android:icon="@drawable/trayectos_bar"
+            android:title="Trayectos" />
+        <item
+            android:id="@+id/nav_alertas"
+            android:icon="@drawable/alertas_bar"
+            android:title="Alertas" />
+        <item
+            android:id="@+id/nav_guardianes"
+            android:icon="@drawable/guardianes_bar"
+            android:title="Guardianes" />
+        <item
+            android:id="@+id/nav_vigilancia"
+            android:icon="@drawable/vigilancia_bar"
+            android:title="Vigilancia" />
+        <item
+            android:id="@+id/nav_ajustes"
+            android:icon="@drawable/ajustes_bar"
+            android:title="Ajustes" />
+      <!--  <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />-->
+    </group>
+</menu>

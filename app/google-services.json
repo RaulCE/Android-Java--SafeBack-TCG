@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "798746857810",
+    "firebase_url": "https://rce-safeback-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "rce-safeback",
+    "storage_bucket": "rce-safeback.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798746857810:android:c368d339fb1f7b4444ea8b",
+        "android_client_info": {
+          "package_name": "com.raulcasanova.safeback"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798746857810-bsq9pr5cvo8eboc7eu2vmvkjjrt6mk3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raulcasanova.safeback",
+            "certificate_hash": "5d066ab05cba2d1cc82ad5b0ee111f1bf803f6ff"
+          }
+        },
+        {
+          "client_id": "798746857810-27r3c5vq8plj1k4op7298fu4iebj87np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCKenI1uYcyM-tPZMc9khDmTCmEak2B6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798746857810-27r3c5vq8plj1k4op7298fu4iebj87np.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

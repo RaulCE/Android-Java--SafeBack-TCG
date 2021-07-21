@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2007E8E"
+    android:backgroundTint="#B2007E8E">
+
+    <Button
+        android:id="@+id/btnAyuda"
+        android:layout_width="290dp"
+        android:layout_height="221dp"
+        android:layout_marginBottom="104dp"
+        android:backgroundTint="#CC1608"
+        android:text="NECESITO AYUDA!"
+        android:textSize="30sp"
+        app:cornerRadius="@dimen/activity_horizontal_margin"
+        app:layout_constraintBottom_toTopOf="@+id/btnOk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="200dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="64dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#1E8522"
+        android:text="Todo va bien!"
+        android:textSize="18sp"
+        app:cornerRadius="@dimen/activity_horizontal_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="306dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="88dp"
+        android:text="¿VA TODO BIEN?"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnAyuda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+</androidx.constraintlayout.widget.ConstraintLayout>

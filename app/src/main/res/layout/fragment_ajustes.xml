@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AjustesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="707dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="706dp">
+
+                <TextView
+                    android:id="@+id/txtAjustesTiempoEstimado"
+                    android:layout_width="112dp"
+                    android:layout_height="31dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Tiempo Estimado"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.501"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btnAjustesLogOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+                    android:backgroundTint="#B2007E8E"
+                    android:text="Log-Out"
+                    android:textColorLink="#00FFFFFF"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtAjustesEditTelefono" />
+
+                <TextView
+                    android:id="@+id/txtAjustesTiempoParada"
+                    android:layout_width="112dp"
+                    android:layout_height="31dp"
+                    android:layout_marginTop="32dp"
+                    android:text="Tiempo Parada"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.501"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtAjustesEditTiempoMaximo" />
+
+                <EditText
+                    android:id="@+id/txtAjustesEditTiempoParada"
+                    android:layout_width="252dp"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="12dp"
+                    android:ems="10"
+                    android:hint="HH:MM"
+                    android:inputType="number"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtAjustesTiempoParada" />
+
+                <TextView
+                    android:id="@+id/txtAjustesTiempoMaximo"
+                    android:layout_width="112dp"
+                    android:layout_height="31dp"
+                    android:layout_marginTop="32dp"
+                    android:text="Tiempo Máximo"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.501"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtAjustesEditTiempoEstimado" />
+
+                <EditText
+                    android:id="@+id/txtAjustesEditTiempoMaximo"
+                    android:layout_width="252dp"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="12dp"
+                    android:ems="10"
+                    android:hint="HH:MM"
+                    android:inputType="number"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.509"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtAjustesTiempoMaximo" />
+
+                <EditText
+                    android:id="@+id/txtAjustesEditTiempoEstimado"
+                    android:layout_width="252dp"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="16dp"
+                    android:ems="10"
+                    android:hint="HH:MM"
+                    android:inputType="number"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtAjustesTiempoEstimado" />
+
+                <TextView
+                    android:id="@+id/txtAjustesTelefono"
+                    android:layout_width="143dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="32dp"
+                    android:text="Telefono Emergencia"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtAjustesEditTiempoParada" />
+
+                <EditText
+                    android:id="@+id/txtAjustesEditTelefono"
+                    android:layout_width="252dp"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="24dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtAjustesTelefono" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
